@@ -1,0 +1,6 @@
+{
+  "name": "Business Architecture AI Agent",
+  "description": "An AI-powered Business Architecture analyst that takes business requirements and maps them to C4 Models, Structurizr DSL code blocks, and Lightweight Architectural Decision Records (LADRs).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
