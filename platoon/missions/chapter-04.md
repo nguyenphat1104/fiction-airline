@@ -1,8 +1,15 @@
 # Mission 001 — Chapter 4: Rightsizing Fiction Airline
 
-**Status:** Ready for analysis  
+**Status:** Ready for analysis — educational scope confirmed  
 **Mission commander:** Platoon Commander  
 **Source lens:** *Microservices Up and Running*, Chapter 4 — rightsizing microservices using Domain-Driven Design, Event Storming, and service-boundary analysis.
+
+## Project constraints (confirmed)
+- Fiction Airline is an **educational microservices project following the book**, not a production airline platform.
+- Optimize for learning, clear boundaries, reproducible experiments, and manageable implementation complexity.
+- Use simplified airline policies where needed, explicitly labeling them as educational assumptions.
+- Prefer incremental extraction and comparison of alternatives over maximizing service count.
+- Keep operational tooling minimal until a chapter or learning objective calls for it.
 
 ## Objective
 Recommend an evidence-backed set of bounded contexts and initial deployable service boundaries for the Fiction Airline reservation domain. Minimize coordination costs and preserve business cohesion.
@@ -51,7 +58,7 @@ Recommend an evidence-backed set of bounded contexts and initial deployable serv
 Service extraction, production code changes, database migrations, cloud deployment, or automatic agent execution.
 
 ## Kickoff questions for the product owner
-1. Is this an educational prototype or a production-target architecture?
+1. **Answered:** educational microservices project following the book.
 2. Are ticket issuance and refunds in the first release?
 3. What is the expected team size and deployment/operations capacity?
 4. What is the business rule for seat-hold duration and payment failures?
